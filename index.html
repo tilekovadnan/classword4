@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"></div>
+    <script>
+        let main = document.getElementById('main');
+        main.style.width = '800px';
+        main.style.height = '1200px';
+        main.style.borderRadius = '30px';
+        main.style.background = '#A9E5FF';
+
+        let divMain = document.createElement('div');
+        divMain.style.width = '800px';
+        divMain.style.height = '600px';
+        divMain.style.borderRadius = '30px';
+        divMain.style.background = '#3A1DFF';
+        main.appendChild(divMain)
+
+        let div1 = document.createElement('div');
+        div1.innerText = "Free";
+        div1.style.color = 'white';
+        div1.style.fontSize = '50px';
+        div1.style.fontWeight = 'bold';  
+        div1.style.paddingTop = '70px';
+        div1.style.paddingLeft = '60px';
+        divMain.appendChild(div1);
+         
+        let div2 = document.createElement('div');
+        div2.innerText = "$0/month";
+        div2.style.color = 'white';
+        div2.style.fontSize = '50px';
+        div2.style.fontWeight = 'bold';  
+        div2.style.paddingLeft = '550px';
+        div2.style.paddingTop = '350px';
+        divMain.appendChild(div2);
+
+        let div3 =  document.createElement('ul');
+        divMain.appendChild(div3)
+
+        div3.style
+    </script>
+</body>
+</html>
